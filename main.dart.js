@@ -37543,7 +37543,7 @@ q=B.hU[A.DS(r)-1]
 m=m+"\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n"+(""+A.cD(r)+"\ub144 "+A.dI(r)+"\uc6d4 "+A.eC(r)+"\uc77c ("+q+")\n")+"\n"+(B.c.EE(s.b)+"\n")
 r=s.c
 p=r==null?null:B.c.bN(r)
-if(p!=null&&p.length!==0)m=m+"\n\u65e5\u672c\u8a9e\n"+(p+"\n")
+if(p!=null&&p.length!==0)m=m+"\n\uc77c\ubcf8\uc5b4\n"+(p+"\n")
 s=s.d
 o=s==null?null:B.c.bN(s)
 if(o!=null&&o.length!==0)m=m+"\n\uc77d\uae30\n"+(o+"\n")}return m.charCodeAt(0)==0?m:m},
@@ -126586,7 +126586,7 @@ $2(a,b){return B.c.bz(a.b,b.b)},
 $S:813}
 A.aDO.prototype={
 $1(a){var s=null
-return A.dh(!0,new A.a9(B.ej,A.am(A.a([B.jf,B.aR,B.aG7,B.R,A.Q("\uc77c\uae30 "+J.c1(this.a.a)+"\ud3b8\uc744 \ud55c\uad6d\uc5b4 \uc6d0\ubb38\uacfc \uc77c\ubcf8\uc5b4 \ubc88\uc5ed\uc774 \ud568\uaed8 \uc801\ud78c \uae00\ub85c \ub0b4\ubcf4\ub0b4\uc694. PDF\ub294 \ub098\uc911\uc5d0 \ub3fc\uc694.",s,s,s,s,B.K,s,s),B.kt,new A.cx("\uacf5\uc720\ud558\uae30",new A.aDL(a),!1,48,s),B.R,new A.cx("\ubcf5\uc0ac\ud558\uae30",new A.aDM(a),!0,48,s),B.aK,A.bS(A.cM(A.k2(B.aG5,new A.aDN(a),s),s,s),44,s)],t.p),B.z,B.f,B.W),s),B.H,!0)},
+return A.dh(!0,new A.a9(B.ej,A.am(A.a([B.jf,B.aR,B.aG7,B.R,A.Q("\uc77c\uae30 "+J.c1(this.a.a)+"\ud3b8\uc744 \ud55c\uad6d\uc5b4 \uc6d0\ubb38\uacfc \uc77c\ubcf8\uc5b4 \ubc88\uc5ed\uc774 \ud568\uaed8 \uc801\ud78c \uae00\ub85c \ub0b4\ubcf4\ub0b4\uc694. PDF\ub294 \uc900\ube44 \uc911\uc774\uc5d0\uc694.",s,s,s,s,B.K,s,s),B.kt,new A.cx("\uacf5\uc720\ud558\uae30",new A.aDL(a),!1,48,s),B.R,new A.cx("\ubcf5\uc0ac\ud558\uae30",new A.aDM(a),!0,48,s),B.aK,A.bS(A.cM(A.k2(B.aG5,new A.aDN(a),s),s,s),44,s)],t.p),B.z,B.f,B.W),s),B.H,!0)},
 $S:173}
 A.aDL.prototype={
 $0(){return A.cd(this.a,!1).i0(B.aKX)},
@@ -128975,8 +128975,9 @@ $S:0}
 A.NH.prototype={
 grv(){var s,r,q,p=this.a
 if(p<6)s="\uc0c8\ubcbd"
-else if(p<12)s="\uc544\uce68"
-else{if(p<13)r="\ub0ae"
+else if(p<10)s="\uc544\uce68"
+else{if(p<12)r="\uc624\uc804"
+else if(p<13)r="\ub0ae"
 else if(p<18)r="\uc624\ud6c4"
 else r=p<21?"\uc800\ub141":"\ubc24"
 s=r}q=B.e.ac(p,12)
@@ -129100,7 +129101,7 @@ return A.e(o.z_(),$async$ra)
 case 4:if(!c){q=!1
 s=1
 break}s=5
-return A.e(o.zE(a,"\ud55c \uc904\ub9cc \uc368\ub3c4 \uc88b\uc544\uc694. \uc77c\ubcf8\uc5b4\ub85c \ubc14\uafd4 \ubc30\uc6cc\uc694.","\uc624\ub298 \ud558\ub8e8\ub294 \uc5b4\ub560\ub098\uc694?"),$async$ra)
+return A.e(o.zE(a,"\ud55c \uc904\ub9cc \uc368\ub3c4 \uc88b\uc544\uc694. \uc77c\ubcf8\uc5b4\ub85c \ubc14\uafd4 \ubc30\uc6cc\uc694.","\uc624\ub298\uc740 \uc5b4\ub5a4 \ud558\ub8e8\uc600\ub098\uc694?"),$async$ra)
 case 5:s=6
 return A.e(p.BB(a),$async$ra)
 case 6:o=p.gtU().b
