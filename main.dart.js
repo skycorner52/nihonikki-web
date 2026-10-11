@@ -36574,9 +36574,9 @@ this.c=this.a=null},
 b4s:function b4s(a){this.a=a},
 b4r:function b4r(a,b){this.a=a
 this.b=b},
-bUx(){return B.b.eo(A.a("google".split(","),t.s),new A.aZ4())},
+bUx(){return B.b.eo(A.a("google,kakao".split(","),t.s),new A.aZ4())},
 bUy(){var s,r,q,p,o,n,m=A.aT(t.eO)
-for(s="google".split(","),r=s.length,q=0;q<s.length;s.length===r||(0,A.C)(s),++q){p=s[q]
+for(s="google,kakao".split(","),r=s.length,q=0;q<s.length;s.length===r||(0,A.C)(s),++q){p=s[q]
 for(o=0;o<3;++o){n=B.afI[o]
 if(n.b===B.c.bH(p).toLowerCase())m.C(0,n)}}return m},
 c2_(a,b){var s,r,q
