@@ -2650,6 +2650,12 @@ limitations under the License.
 --------------------------------------------------------------------------------
 cross_file
 cupertino_ui
+flutter_plugin_android_lifecycle
+local_auth
+local_auth_android
+local_auth_darwin
+local_auth_platform_interface
+local_auth_windows
 material_ui
 path_provider
 path_provider_android
