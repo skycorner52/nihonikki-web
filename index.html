@@ -17,6 +17,15 @@
   <base href="/nihonikki-web/">
 
   <meta charset="UTF-8">
+  <!--
+    보안 점검 B-xx(CSP, 검토 가지): 앱이 밖으로 연결하는 곳만 허용한다. 허용 목록은 `기준문서/개발작업/보안_앱쪽_빨강_설계_1116.md` 기준.
+    - 서버(Supabase)는 정확한 프로젝트 호스트만 적는다(와일드카드면 글을 남의 프로젝트로 보낼 수 있음). 서버를 바꾸면(운영 서버 새로 만들 때) 여기 두 곳도 같이 바꾼다 — `SUPABASE_URL` 빌드값과 같아야 한다.
+    - Sentry는 웹 빌드에 DSN을 주는 것이 확인되면 그 호스트를 connect-src에 더한다(지금은 뺌: 막혀도 앱은 동작, 오류 보고만 빠짐).
+    - CanvasKit은 CDN(www.gstatic.com), 없는 글자의 대체 글꼴은 fonts.gstatic.com에서 받는다.
+    - 인라인 스타일은 Flutter 엔진이 쓴다(`style-src 'unsafe-inline'`). 인라인 스크립트는 없다.
+  -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://www.gstatic.com; worker-src 'self' blob:; connect-src 'self' https://yzxrwbyqgxginmwhzxeb.supabase.co wss://yzxrwbyqgxginmwhzxeb.supabase.co https://us.i.posthog.com https://www.gstatic.com https://fonts.gstatic.com; img-src 'self' data: blob:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; form-action 'self'">
+
   <meta name="robots" content="noindex, nofollow">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="한국어로 쓴 일기를 일본어로 배우는 앱">
