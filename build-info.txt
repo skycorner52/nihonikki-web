@@ -1,4 +1,3 @@
-웹 372차 · e5dbbae1 · 기초 문장 켬 · 대화 스트림 켬 · 11-22 20:56
-main e5dbbae1
-build 372
-NK_CHAT_STREAM=true
+웹 373차 · e6e6cc41 · 기초 문장 켬 · 11-24 21:34
+main e6e6cc41
+build 373
