@@ -1,4 +1,4 @@
-웹 374차 · e6e6cc41 · 기초 문장 켬 · 상황별 단어 켬 · 11-25 17:44
-main e6e6cc41
-build 374
+웹 375차 · 73c5feb0 · 기초 문장 켬 · 상황별 단어 켬 · 11-25 21:09
+main 73c5feb0
+build 375
 NK_WORD_TOPICS=true
