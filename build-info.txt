@@ -1,4 +1,4 @@
-웹 377차 · 0c0d42e4 · 기초 문장 켬 · 상황별 단어 켬 · 11-26 22:58
-main 0c0d42e4
-build 377
+웹 378차 · 8cdc2ca3 · 기초 문장 켬 · 상황별 단어 켬 · 11-26 23:34
+main 8cdc2ca3
+build 378
 NK_WORD_TOPICS=true
