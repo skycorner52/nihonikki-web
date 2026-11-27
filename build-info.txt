@@ -1,4 +1,4 @@
-웹 379차 · 25f05f34 · 기초 문장 켬 · 상황별 단어 켬 · 11-27 13:13
-main 25f05f34
-build 379
+웹 380차 · de18dddd · 기초 문장 켬 · 상황별 단어 켬 · 11-27 14:07
+main de18dddd
+build 380
 NK_WORD_TOPICS=true
