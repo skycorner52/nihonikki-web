@@ -1,4 +1,4 @@
-웹 388차 · ab360748 · 기초 문장 켬 · 상황별 단어 켬 · 11-28 18:04
-main ab360748
-build 388
+웹 389차 · b3acfa22 · 기초 문장 켬 · 상황별 단어 켬 · 11-28 18:55
+main b3acfa22
+build 389
 NK_WORD_TOPICS=true
