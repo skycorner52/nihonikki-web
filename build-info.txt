@@ -1,4 +1,4 @@
-웹 392차 · 646a16ea · 기초 문장 켬 · 상황별 단어 켬 · 11-28 22:27
-main 646a16ea
-build 392
+웹 393차 · d5edb278 · 기초 문장 켬 · 상황별 단어 켬 · 11-28 23:00
+main d5edb278
+build 393
 NK_WORD_TOPICS=true
