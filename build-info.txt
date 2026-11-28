@@ -1,4 +1,4 @@
-웹 394차 · 3e0069baf · 기초 문장 켬 · 상황별 단어 켬 · 11-28 23:36
-main 3e0069baf
-build 394
+웹 395차 · a7b5fee30 · 기초 문장 켬 · 상황별 단어 켬 · 11-29 00:11
+main a7b5fee30
+build 395
 NK_WORD_TOPICS=true
